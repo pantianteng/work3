@@ -1,0 +1,15 @@
+.div1
+{
+	position: absolute;
+	left: 20%;
+	top: 70%;
+	margin-top: -250px;
+}
+
+.div2
+{
+	font-size: 30px;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+}

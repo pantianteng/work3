@@ -1,0 +1,87 @@
+body{
+    background-image: url(../images/主界面/主页背景.jpg);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    zoom: 1;
+}
+
+.divmain{
+    position: absolute;
+    left: 50%;
+	top: 50%;
+	width: 580px;
+	margin-left: -290px; 
+	height: 600px;
+	margin-top: -300px;
+    background-color: white;
+    box-shadow: 5px 5px 5px #333333;
+    border-radius: 20px;
+}
+
+.authError{
+	position: relative;
+	left: 40px;
+	color: red;
+}
+
+.input{
+    width: 300px;
+    height: 30px;
+	position:relative;
+	left: 30px;
+    background: url("../images/登录界面/账户.png") no-repeat;
+    background-size:29px,29px;
+    padding-left: 32px;
+	margin-bottom: 20px;
+}
+
+.mail{
+	width: 300px;
+	height: 30px;
+	position:relative;
+	left: 30px;
+	background: url("../images/注册界面/邮箱.png") no-repeat;
+	background-size:27px,27px;
+	background-position-x: 1px;
+	background-position-y: 4px;
+	padding-left: 32px;
+	margin-bottom: 20px;
+}
+
+.city{
+	width: 200px;
+	height: 30px;
+	position:relative;
+	left: 30px;
+	background: url("../images/注册界面/城市.png") no-repeat;
+	background-size:29px,29px;
+	padding-left: 32px;
+	margin-bottom: 20px;
+}
+
+.password{
+	width: 300px;
+	height: 30px;
+	position:relative;
+	left: 30px;
+	background: url("../images/登录界面/密码.png") no-repeat;
+	background-size:29px,29px;
+	padding-left: 32px;
+	background-position-y: 1.5px;
+	margin-bottom: 20px;
+}
+
+.button{
+	position: relative;
+	left: 40%;
+	margin-left: -75px;
+	width:150px;
+	height:40px;
+	background-color:blue;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}

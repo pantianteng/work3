@@ -1,0 +1,58 @@
+@charset "utf-8";
+body{
+    background-image: url(../images/主界面/主页背景.jpg);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    zoom: 1;
+}
+
+.div1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 5px 5px 5px #333333;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+
+.userName{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px;
+    background: url("../images/登录界面/账户.png") no-repeat;
+    background-size:28px,28px;
+    padding-left: 30px;
+}
+
+.password{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px;
+    background: url("../images/登录界面/密码.png") no-repeat;
+    background-size: 28px,28px;
+    padding-left: 30px;
+}
+
+.vcode{
+    margin-bottom: 20px;
+    width: 95px;
+    height: 30px;
+    background: url("../images/登录界面/验证码.png") no-repeat;
+    background-size:28px,28px ;
+    padding-left: 30px;
+}
+
+.autoLogin{
+	position: relative;
+	left: -45px;
+	cursor: pointer;
+}
